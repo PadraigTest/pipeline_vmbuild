@@ -5,14 +5,14 @@ pipeline {
 
 
     stages {
-      stage('3_test_repo - tests') {
+      stage('vmbuild tests') {
         steps {
-          echo "We have run the tests against 3_test_repo"
+          echo "We have run the tests against vmbuild"
         }
       }
-      stage('3_test_repo - build') {
+      stage('vmbuild build') {
         steps {
-          echo "We have built 3_test_repo"
+          echo "We have built vmbuild"
         }
       }
     }
